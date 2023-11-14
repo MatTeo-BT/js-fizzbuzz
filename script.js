@@ -1,15 +1,15 @@
 
 for(let i = 1; i < 100; i++){
     console.log(i);
-    if (i % 3){
+    if (i % 3 ===0){
         const multiploDi3 = `Fizz`;
         console.log(`Fizz`);
     }
-    if (i % 5){
+    if (i % 5 ===0){
         const multiploDi5 = `Buzz`;
         console.log(`Buzz`);
     }
-    if (i % 15){
+    if (i % 15 ===0){
         const multiploDiEntrambi = `FizzBuzz`;
         console.log(`FizzBuzz`);
     }
